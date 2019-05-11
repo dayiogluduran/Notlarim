@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NewNoteActivity">
+
+    <EditText
+        android:id="@+id/txtNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/not_baslik"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtNoteDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtNoteTitle"
+        android:gravity="left"
+        android:hint="@string/notunuz"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#000"
+        android:textSize="16sp" />
+</RelativeLayout>
